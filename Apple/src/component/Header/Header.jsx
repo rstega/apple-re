@@ -1,11 +1,11 @@
 
-import logo from'./component/images/icons/logo.png'
-import Search from './component/images/icons/search-icon.png';
-import Cart from'./component/images/icons/cart.png';
+import logo from '../images/icons/logo.png';
+import Search from '../images/icons/search-icon.png';
+import Cart from '../images/icons/cart.png';
  function Header() {
   return (
     <div>
-        <header className="header-wrapper">
+       <header className="header-wrapper">
 			<div className="internal-wrapper"> 
 				<div className="header-links-wrapper">
 					<ul>
@@ -22,7 +22,8 @@ import Cart from'./component/images/icons/cart.png';
 					</ul>					
 				</div>
 			</div>
-		</header>
+			</header>
+		
     </div>
   
   )

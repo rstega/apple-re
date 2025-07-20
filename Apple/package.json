@@ -1,4 +1,4 @@
- {
+{
   "name": "apple",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.4",
     "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
